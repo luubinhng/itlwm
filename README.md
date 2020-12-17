@@ -43,3 +43,11 @@ For providing resources and help for system configuration.
 - [@Daliansky](https://github.com/Daliansky)
 
 For providing Wi-Fi cards.
+
+# If could not boot when include in EFI
+  sudo cp -R itlwm.kext /Library/Extensions
+
+  - Install Heliport.
+  sudo kextload /Library/Extensions/itlwm.kext
+  
+  
