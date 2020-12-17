@@ -47,7 +47,9 @@ For providing Wi-Fi cards.
 # If could not boot when include in EFI
   sudo cp -R itlwm.kext /Library/Extensions
 
-  - Install Heliport.
-  sudo kextload /Library/Extensions/itlwm.kext
+  - Install Heliport
+  - sudo kextload /Library/Extensions/itlwm.kext
+  
+  Reboot and ẹnoy
   
   
